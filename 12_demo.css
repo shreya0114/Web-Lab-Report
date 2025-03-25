@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: rgb(7, 0, 0);
+    background-color: rgb(243, 152, 178);
+}
+.container{
+    background-color: rgb(204, 204, 57);
+}
