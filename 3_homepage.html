@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML Homepage </title>
+    <link rel="stylesheet" href="3_homepage.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+   <section id="about" class="section">
+    <h1>About Us</h1>
+    <p>Welcome to our company! We are passionate about delivering services to our clients.</p>
+</section>
+
+<section id="services" class="section">
+    <h1>Our Services</h1>
+    <ul>
+        <li>Haircut</li>
+        <li>Botox</li>
+        <li>Hair Colouring</li>
+        <li>Keratin Treatment</li>
+    </ul>
+</section>  
+<section id="gallery" class="section">
+    <h1>Gallery</h1>
+    <div class="gallery-container">
+        <img src="/images/botox treatment.jpg" alt="Gallery Image 1">
+        <img src="/images/Hair style.jpeg" alt="Gallery Image 2">
+        <img src="/images/Brown hair.webp" alt="Gallery Image 3">
+        <img src="/images/images.jpeg" alt="Gallery Image 4">
+    </div>
+</section>
+<section id="contact" class="section">
+    <h1>Contact Us</h1>
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <a href="#top" class="back-to-top">Back to Top</a>
+</footer>
+</body>
+</html>
