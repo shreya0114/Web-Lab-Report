@@ -31,7 +31,7 @@ display: block;
 
 }
 ul li ul.dropdown{
-    width: 120%;
+    width: 150%;
     background: #848187;
     position: absolute;
     z-index: 999;
