@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('night.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-box {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+h2 {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #00bcd4;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background: #222;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: white;
+}
+input:focus {
+    border-color: #00bcd4;
+    outline: none;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.checkbox input {
+    width: auto;
+    margin-right: 5px;
+}
+.btn {
+    width: 100%;
+    background: #d4a600;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background:#b38c00;
+}
